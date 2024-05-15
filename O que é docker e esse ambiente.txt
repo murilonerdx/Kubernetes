@@ -1,0 +1,9 @@
+Docker: Imagina que é uma caixinha mágica que guarda e roda os programas que a gente faz. É tipo uma casinha segura para os programas viverem e funcionarem em qualquer lugar.
+
+Kubernetes (ou k8s): É como um super-herói que organiza e cuida das nossas caixinhas mágicas (os Dockers). Ele ajuda a gerenciar e controlar muitas dessas caixinhas, garantindo que todas funcionem direitinho, mesmo quando são muitas.
+
+Cluster: É como uma cidade onde vivem muitas caixinhas mágicas e o Kubernetes é o prefeito dessa cidade, mantendo tudo funcionando e seguro.
+
+Pods: São como casinhas dentro da cidade (o Cluster). Cada casinha (ou Pod) pode ter um ou mais programas (Dockers) vivendo dentro dela e o Kubernetes cuida para que todas as casinhas estejam felizes e trabalhando bem juntas.
+
+Nós (ou Nodes): São como os terrenos onde as casinhas (Pods) podem ser construídas. O Kubernetes ajuda a decidir em qual terreno cada casinha deve ficar, garantindo que todas tenham o espaço e recursos que precisam para funcionar.
