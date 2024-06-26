@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meu-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: meu-app
+  template:
+    metadata:
+      labels:
+        app: meu-app
+    spec:
+      containers:
+        - name: meu-app
+          image: usuario/meu-app:latest
+          ports:
+            - containerPort: 80
